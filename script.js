@@ -1,5 +1,5 @@
-let i = "#", call = 0;
+let call = "#";
 
-for (let call = i; call <= 7; call++){
+for (let call = "#"; call.length != 7; call+= "#"){
     console.log(call);
 }
